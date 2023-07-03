@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+.layout{
+    width:100%;
+    height: auto;
+    display:flex;
+}
+.side-bar{
+    width: 80px;
+    height:60vh;
+    position: sticky;
+    top:0px;
+    display: inline;
+    align-items: center;
+}
+
+.side-menu{
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+    border-radius: 14px;
+    
+}
+.side-menu:hover{
+    background-color: lightgrey;
+}
+.ham-burger{
+    text-align: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px 0px 15px ;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.ham-burger:hover{
+    background-color: lightgrey;
+}
+.side-home{
+    height: 20px;
+    width: 20px;
+}
+
+.container{
+    width:100%;
+    height:400vh;
+    box-sizing: border-box;
+}
+.menu-bar{
+    display: flex;
+    width: 100%;
+    height:60px;
+    position: sticky;
+    top:0px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: white;
+}
+.search-bar{
+   
+    padding-left: 50px;
+    width:700px;
+    display:flex;
+}
+.input{
+    font-size: 16px;
+    border-radius: 20px 0px 0px 20px;
+    border: 1px solid lightgrey;
+    width: 600px;
+    padding:1px 0px 0px 15px;
+    
+}
+.mfg{
+    
+    width: 200px;
+    height: 100%;
+    display: flex;
+    gap:20px;
+}
+.mf-border{
+    padding-left: 15px;
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: whitesmoke;
+}
+.mf-border:hover{
+    background-color: lightgrey;
+}
+.mic{
+    width: 45px;
+    height: 45px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    
+   
+}
+.mic:hover{
+    background-color: lightgrey;
+}
+
+.logo{
+    
+   width:100px;
+   height:60px;
+    
+}
+.end{
+  
+    padding: 0px;
+    width: 100%;
+    height:100%;
+    text-align: end;
+    gap:40px
+   
+}
+.mfglass{
+    margin-right: 18px;
+    padding: 0px 10px;
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.mfgls{
+    margin-right: 18px;
+    padding: 0px 10px;
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.mfgls:hover{
+    background-color: lightgrey;
+}
+.profile{
+    margin-right: 18px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.video-container{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height:100%;
+    }
+.options{
+    width:100%;
+    height:50px;
+    padding: 5px 5px;
+    position: sticky;
+    top:60px;
+    background-color: white;
+    
+}
+.cards{
+    margin-top: -130px;
+    width: 100%;
+    padding-left: 20px;
+    gap: 40px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.btn1{
+    font-size: 14px;
+    background-color: whitesmoke;
+    border:none;
+    margin: 5px;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+.btn1:hover{
+    background-color: lightgrey;
+   
+}
+
+.card1{
+     
+    margin:0px auto;
+    width:330px;
+    height:fit-content;
+    /* border:2px solid yellow; */
+    border-radius: 12px;
+}
+.card1 img{
+    width:100%;
+    height:70%;
+   border-radius: 20px;
+}
+.card1 img:hover{
+    border:none;
+}
+.text{
+    border:2px solid black;
+    /* padding-left: 15px; */
+    text-align: left;
+    margin-left: 20px;
+    font-weight:bold;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    
+}
+.inner-details{
+    display: flex;
+    align-items:start;
+    
+    border:2px solid red;
+   
+}
+.channel-logo{
+    margin-top: 6px;
+    border:2px solid orange;
+    width: 100px;
+    height:50px;
+    border-radius: 50%
+}
+.relative{
+    margin:0px;
+    
+}
+
+
